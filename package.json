@@ -1,0 +1,7 @@
+{
+  "name": "tainan-trip-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "台南慢慢走：以 JSON 維護的繪本旅行網站",
+  "scripts": {"dev": "node scripts/serve.cjs", "check": "node --check app.js && node scripts/check.cjs"}
+}

@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "title": "台南慢慢走",
+  "subtitle": "吃喜歡的、買想買的、每天都要有飲料 ♡",
+  "dates": {
+    "start": "2026-11-03",
+    "end": "2026-11-05",
+    "timezone": "Asia/Taipei"
+  },
+  "hotelId": "hotel",
+  "summary": "Day 1 先買葡吉，再入住；Day 2 學甲＋漢菓方＋米糕；Day 3 牛肉湯＋水道博物館。夜市是彈性備案，不趕行程。",
+  "places": [
+    {
+      "id": "hotel",
+      "name": "煙波大飯店台南館",
+      "emoji": "🏨",
+      "category": "住宿",
+      "address": "台南市中西區永福路一段269號",
+      "lat": 22.9865,
+      "lng": 120.2014,
+      "note": "11/3–11/5，兩晚皆入住；停車、入住與退房規則待確認",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "puji",
+      "name": "葡吉麵包店",
+      "emoji": "🥐",
+      "category": "必去",
+      "address": "台南市北區成功路200號",
+      "lat": 23.003,
+      "lng": 120.2046,
+      "note": "Day 1 暫排14:00左右，希望接近出爐時間逛；不指定購買品項。當日出爐時段待確認",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "parking",
+      "name": "赤崁樓周邊停車場",
+      "emoji": "🅿️",
+      "category": "停車",
+      "address": "台南市中西區赤崁街附近",
+      "lat": 22.9973,
+      "lng": 120.2032,
+      "note": "葡吉周邊停車備案；當日確認空位和費率",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "qingshan",
+      "name": "青山茶行",
+      "emoji": "🧋",
+      "category": "飲料",
+      "address": "台南市中西區民生路二段117號",
+      "lat": 22.9952,
+      "lng": 120.1952,
+      "note": "Day 1 飲料；原收藏營業至18:00",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "eel",
+      "name": "信義小吃部 炒鱔魚專家",
+      "emoji": "🍜",
+      "category": "必吃",
+      "address": "台南市中西區大同路一段146號",
+      "lat": 22.9839,
+      "lng": 120.211,
+      "note": "Day 1 晚餐；最新營業狀況出發前確認",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "guohua",
+      "name": "國華街／正興街散步",
+      "emoji": "🏮",
+      "category": "景點",
+      "address": "台南市中西區正興街",
+      "lat": 22.9934,
+      "lng": 120.1966,
+      "note": "第一天彈性散步",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "mingdong",
+      "name": "名東蛋糕",
+      "emoji": "🎁",
+      "category": "伴手禮",
+      "address": "台南市中西區民生路二段95號",
+      "lat": 22.9951,
+      "lng": 120.1972,
+      "note": "有時間再逛的備選",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "heya",
+      "name": "荷芽飲品",
+      "emoji": "🧋",
+      "category": "飲料",
+      "address": "台南市中西區國華街三段164號",
+      "lat": 22.9971,
+      "lng": 120.1983,
+      "note": "Day 2 出發前飲料；仍需核對店家最新營業時間",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "lunch",
+      "name": "學甲午餐｜待選",
+      "emoji": "🍚",
+      "category": "待確認",
+      "address": "台南市學甲區中正路",
+      "lat": 23.2322,
+      "lng": 120.1791,
+      "note": "尚未確定店名，優先找11/4週三中午營業的在地午餐",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "laotang",
+      "name": "老塘湖藝術村",
+      "emoji": "🏯",
+      "category": "必去",
+      "address": "台南市學甲區美豐49之26號",
+      "lat": 23.2554,
+      "lng": 120.1331,
+      "note": "Day 2 下午，出發前核對營業時間",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "hanguo",
+      "name": "漢菓方",
+      "emoji": "🍬",
+      "category": "必去",
+      "address": "台南市中西區新美街70號",
+      "lat": 22.9964,
+      "lng": 120.2005,
+      "note": "Day 2 16:45 左右；原收藏週三14:30–18:30",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "rice",
+      "name": "文賢米糕",
+      "emoji": "🍚",
+      "category": "必吃",
+      "address": "台南市北區文賢路478號",
+      "lat": 23.0112,
+      "lng": 120.1948,
+      "note": "Day 2 晚餐，原收藏16:15–22:30、六日休",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "market",
+      "name": "武聖夜市",
+      "emoji": "🎪",
+      "category": "備案",
+      "address": "台南市中西區武聖路69巷42號",
+      "lat": 23.008,
+      "lng": 120.1884,
+      "note": "Day 2 彈性備案；原手帳記載週三開市，尚未查核，停車可能滿位",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "ray",
+      "name": "Super Ray Coffee",
+      "emoji": "☕",
+      "category": "飲料",
+      "address": "台南市中西區民族路三段19號之1",
+      "lat": 22.9993,
+      "lng": 120.1989,
+      "note": "Day 3 飲料；原收藏08:00–16:00",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "beef",
+      "name": "善化牛肉湯｜待確認店家",
+      "emoji": "🥣",
+      "category": "必吃",
+      "address": "台南市善化區光復路",
+      "lat": 23.1329,
+      "lng": 120.2976,
+      "note": "Day 3 午餐；牛肉湯是必吃，候選店營業時間須再確認",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    },
+    {
+      "id": "water",
+      "name": "山上花園水道博物館",
+      "emoji": "🏛️",
+      "category": "必去",
+      "address": "台南市山上區山上里16號",
+      "lat": 23.0993,
+      "lng": 120.3594,
+      "note": "Day 3 暫排13:30；原手帳記載週三休園，尚未查核，出發前確認",
+      "verification": {
+        "status": "pending",
+        "source": "使用者提供的原始旅行手帳；尚未重新查核",
+        "checkedAt": null
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "title": "DAY 01｜台南市區・壽星的麵包日",
+      "subtitle": "11/3（二）｜葡吉優先、入住後慢慢吃",
+      "transport": "自駕到葡吉／煙波；市區改步行或計程車",
+      "reminder": "🍞 葡吉希望接近出爐時間逛，不指定購買品項。14:00為暫排時間，當日出爐時段待確認。",
+      "items": [
+        {
+          "time": "13:30",
+          "title": "抵達葡吉周邊、找停車位",
+          "id": "parking",
+          "kind": "停車",
+          "note": "先看周邊合法停車場；位置和費率當天確認。",
+          "move": "自駕",
+          "must": false
+        },
+        {
+          "time": "14:00",
+          "title": "葡吉麵包店｜壽星指定",
+          "id": "puji",
+          "kind": "伴手禮",
+          "note": "逛麵包、挑喜歡的伴手禮，不指定購買品項；確認出爐時段後再調整抵達時間。",
+          "move": "停車後步行",
+          "must": true
+        },
+        {
+          "time": "15:00",
+          "title": "煙波台南館入住",
+          "id": "hotel",
+          "kind": "住宿",
+          "note": "開車到飯店停車，放下麵包和行李、休息一下。",
+          "move": "自駕",
+          "must": false
+        },
+        {
+          "time": "16:30",
+          "title": "青山茶行｜今日飲料",
+          "id": "qingshan",
+          "kind": "飲料",
+          "note": "原收藏營業到18:00，先買飲料再散步。",
+          "move": "步行／短程計程車",
+          "must": false
+        },
+        {
+          "time": "17:00",
+          "title": "國華街・正興街散步",
+          "id": "guohua",
+          "kind": "散步",
+          "note": "逛街區和小店；名東蛋糕想看再順路補逛。",
+          "move": "步行",
+          "must": false
+        },
+        {
+          "time": "18:00",
+          "title": "信義小吃部｜鱔魚麵",
+          "id": "eel",
+          "kind": "晚餐",
+          "note": "這趟必吃的鱔魚麵，吃完可直接回飯店休息。",
+          "move": "計程車較省停車麻煩",
+          "must": true
+        }
+      ],
+      "date": "2026-11-03"
+    },
+    {
+      "title": "DAY 02｜學甲老塘湖・漢菓方・米糕",
+      "subtitle": "11/4（三）｜郊區走走，晚上不要排太滿",
+      "transport": "白天自駕；回飯店後視情況計程車／開車",
+      "reminder": "🌙 武聖夜市只是備案！老塘湖回程若塞車，優先保留漢菓方，晚上的活動不要硬趕。",
+      "items": [
+        {
+          "time": "09:00",
+          "title": "煙波早餐，慢慢吃",
+          "id": "hotel",
+          "kind": "早餐",
+          "note": "飯店早餐，不需要特別早起。",
+          "move": "飯店內",
+          "must": false
+        },
+        {
+          "time": "10:30",
+          "title": "荷芽飲品｜今日飲料",
+          "id": "heya",
+          "kind": "飲料",
+          "note": "先買一杯帶著出發；若店休改挑沿路手搖飲。",
+          "move": "自駕／可由同行人下車購買",
+          "must": false
+        },
+        {
+          "time": "12:00",
+          "title": "學甲午餐｜待選",
+          "id": "lunch",
+          "kind": "午餐",
+          "note": "建議找學甲市區週三中午營業的虱目魚湯／粥、米飯類，尚未鎖定店家。",
+          "move": "自駕，附近找合法停車",
+          "must": false
+        },
+        {
+          "time": "13:00",
+          "title": "老塘湖藝術村",
+          "id": "laotang",
+          "kind": "景點",
+          "note": "本趟必去。預留約1.5–2小時，依現場情況調整。",
+          "move": "自駕",
+          "must": true
+        },
+        {
+          "time": "15:00",
+          "title": "回台南市區",
+          "id": "hotel",
+          "kind": "交通",
+          "note": "路程預留緩衝，視情況先回飯店放東西。",
+          "move": "自駕",
+          "must": false
+        },
+        {
+          "time": "16:45",
+          "title": "漢菓方｜必逛伴手禮",
+          "id": "hanguo",
+          "kind": "伴手禮",
+          "note": "原收藏週三14:30–18:30；保留30–45分鐘慢慢選。",
+          "move": "短程計程車／自駕停妥再步行",
+          "must": true
+        },
+        {
+          "time": "18:00",
+          "title": "文賢米糕｜米糕＋四神湯",
+          "id": "rice",
+          "kind": "晚餐",
+          "note": "這趟指定想吃米糕，記得你收藏的四神湯推薦。",
+          "move": "自駕／計程車",
+          "must": true
+        },
+        {
+          "time": "19:00+",
+          "title": "武聖夜市｜有精神再去",
+          "id": "market",
+          "kind": "備案",
+          "note": "彈性備案；原手帳記載週三開市，尚未查核。累了就回煙波休息，停車可能滿位。",
+          "move": "自駕或計程車",
+          "must": false
+        }
+      ],
+      "date": "2026-11-04"
+    },
+    {
+      "title": "DAY 03｜牛肉湯・水道博物館",
+      "subtitle": "11/5（四）｜好好吃早餐，下午逛完返程",
+      "transport": "全程自駕（市區 → 善化 → 山上 → 返程）",
+      "reminder": "🥣 牛肉湯店家尚未確認。建議選善化／山上順路、週四午間營業的店，避免繞回市區。",
+      "items": [
+        {
+          "time": "09:00",
+          "title": "煙波早餐",
+          "id": "hotel",
+          "kind": "早餐",
+          "note": "睡飽吃早餐，慢慢整理行李。",
+          "move": "飯店內",
+          "must": false
+        },
+        {
+          "time": "10:30",
+          "title": "退房、開車出發",
+          "id": "hotel",
+          "kind": "交通",
+          "note": "依飯店退房規則辦理。",
+          "move": "自駕",
+          "must": false
+        },
+        {
+          "time": "11:00",
+          "title": "Super Ray Coffee｜今日飲料",
+          "id": "ray",
+          "kind": "飲料",
+          "note": "市區最後一杯咖啡；若不順路，可替換成沿途飲料店。",
+          "move": "自駕／短停購買",
+          "must": false
+        },
+        {
+          "time": "12:00",
+          "title": "善化牛肉湯午餐｜待定店家",
+          "id": "beef",
+          "kind": "午餐",
+          "note": "牛肉湯必吃。先保留午餐時間，待選出營業時段可靠的店。",
+          "move": "自駕",
+          "must": true
+        },
+        {
+          "time": "13:30",
+          "title": "山上花園水道博物館",
+          "id": "water",
+          "kind": "景點",
+          "note": "本趟必去，預留約2小時。原手帳記載週三公休，因此暫排週四；開放資訊待確認。",
+          "move": "自駕；依園區指示停車",
+          "must": true
+        },
+        {
+          "time": "15:30–16:00",
+          "title": "結束台南旅行，開車返程",
+          "id": null,
+          "kind": "返程",
+          "note": "不再塞景點，留時間開車和休息。",
+          "move": "自駕",
+          "must": false
+        }
+      ],
+      "date": "2026-11-05"
+    }
+  ],
+  "extras": [
+    "parking",
+    "mingdong",
+    "market"
+  ],
+  "checklist": [
+    {
+      "id": "task-1",
+      "text": "確認葡吉當日出爐時段（不指定購買品項）"
+    },
+    {
+      "id": "task-2",
+      "text": "確認葡吉附近停車場／當天空位"
+    },
+    {
+      "id": "task-3",
+      "text": "核對漢菓方週三營業時間"
+    },
+    {
+      "id": "task-4",
+      "text": "確認老塘湖週三有開放"
+    },
+    {
+      "id": "task-5",
+      "text": "選定學甲午餐（週三中午營業）"
+    },
+    {
+      "id": "task-6",
+      "text": "確認善化牛肉湯週四午餐店家"
+    },
+    {
+      "id": "task-7",
+      "text": "確認水道博物館週四開放與休園資訊"
+    },
+    {
+      "id": "task-8",
+      "text": "確認各日飲料店營業時間"
+    },
+    {
+      "id": "task-9",
+      "text": "確認武聖夜市開市與停車（備案）"
+    },
+    {
+      "id": "task-10",
+      "text": "確認煙波停車與入住、退房規則"
+    },
+    {
+      "id": "task-11",
+      "text": "手機充電線、行動電源"
+    },
+    {
+      "id": "task-12",
+      "text": "駕照、證件、常用藥品"
+    }
+  ],
+  "transportNotes": [
+    "葡吉附近停車 → 飯店停車；市區散步建議步行／計程車。",
+    "學甲自駕；回市區後停車再逛漢菓方與米糕，夜市視體力加碼。",
+    "退房後自駕往善化與山上，水道博物館之後返程。"
+  ],
+  "pendingNote": "學甲午餐店名、善化牛肉湯店家、葡吉周邊停車與當日出爐時段，以及各店營業／園區開放資訊皆待確認。"
+}
