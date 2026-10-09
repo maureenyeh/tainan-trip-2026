@@ -27,13 +27,13 @@ npm run dev
 
 字型、Leaflet 與 OpenStreetMap 底圖需要網路；地圖套件失敗時仍顯示地點導航。清單勾選只儲存在同一裝置瀏覽器，不會同步。
 
-## 預定發布方案：GitHub Pages
+## 已啟用發布：GitHub Pages
 
 儲存庫：https://github.com/maureenyeh/tainan-trip-2026
 
-預定固定網址：https://maureenyeh.github.io/tainan-trip-2026/ （尚未啟用）
+固定網址：https://maureenyeh.github.io/tainan-trip-2026/
 
-目前儲存庫先維持 private，避免在確認前公開旅行內容。使用者確認後，將儲存庫改為 public，於 Settings → Pages 選擇 Deploy from a branch、main、/(root)，儲存後等待部署完成。保留帳號與儲存庫名稱，後續提交 main 就沿用相同網址。
+使用者已於 2026/10/09 確認公開發布。儲存庫已改為 public，GitHub Pages 使用 main、/(root)。保留帳號與儲存庫名稱，後續提交 main 就沿用相同網址。分享此 HTTPS 網址即可，無須另設 DNS；若日後使用自訂網域再設定 DNS。
 
 GitHub Free 可使用公開儲存庫的 Pages；若希望原始碼維持私有，需確認帳號支援私人儲存庫 Pages，或改用其他網站託管平台。
 
@@ -44,7 +44,7 @@ GitHub Free 可使用公開儲存庫的 Pages；若希望原始碼維持私有�
 - `trip-data.json`：行程、地點、日期、清單及查核狀態。
 - `index.html`：繪本插畫與頁面骨架。
 - `styles.css`：響應式設計。
-- `app.js`：資料載入、行程渲染、地图與導航。
+- `app.js`：資料載入、行程渲染、地圖與導航。
 - `AGENTS.md`：設計規範、旅行偏好及後續維護規則。
 - `scripts/check.cjs`：修改前後的資料完整性檢查。
 

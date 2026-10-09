@@ -27,8 +27,8 @@
 - 學甲午餐與善化牛肉湯店家未選定；不得擅自指派店名。
 
 ## 版本與發布
-- 使用 GitHub 儲存庫 maureenyeh/tainan-trip-2026；保留儲存庫名稱以維持預定 GitHub Pages 網址。
-- 首次公開發布需使用者確認網站預覽與發布方案，目前尚未公開。
-- 未經首次確認，不要變更儲存庫為公開或啟用 GitHub Pages。
+- 使用 GitHub 儲存庫 maureenyeh/tainan-trip-2026；保留儲存庫名稱以維持固定 GitHub Pages 網址。
+- 使用者已於 2026/10/09 確認公開發布；儲存庫公開，Pages 已啟用。
+- 固定網址：https://maureenyeh.github.io/tainan-trip-2026/ 。日後維護與更新可發布到同一網址。
 - 初次確認並設定 Pages 後，main 更新會自動發布到相同網址。
 - 每次更新先執行 npm run check；必要時預覽行程分頁、每日地圖、導航與手機排版。
