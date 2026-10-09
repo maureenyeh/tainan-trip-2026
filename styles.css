@@ -4,3 +4,24 @@
 .status{display:inline-block;color:#765224;background:#fff0de;border:1px dashed #765224;border-radius:8px;padding:2px 7px;font-size:12px;margin:5px 0}.status.confirmed{color:#365a36;background:#e4f2de}#load-error{padding:16px;border:2px solid #a34b3b;border-radius:14px;background:#fff0de}button:focus-visible,a:focus-visible{outline:3px solid #345d61;outline-offset:3px}
 
 #trip-dates{margin-top:18px;margin-bottom:8px}
+
+/* Gentle storybook motion; all content stays visible without animation. */
+@media (prefers-reduced-motion:no-preference){
+  .hero svg circle[cx="593"]{transform-box:fill-box;transform-origin:center;animation:sun-breathe 4.8s ease-in-out infinite}
+  .float{animation:float 3s ease-in-out infinite}
+  .drink-icon{display:inline-block;transform-origin:50% 85%;animation:drink-sway 3.2s ease-in-out infinite}
+  .section.active{animation:page-arrive .35s ease-out}
+  .section.active .event{animation:card-arrive .45s ease-out backwards}
+  .event:nth-child(2){animation-delay:.06s!important}
+  .event:nth-child(3){animation-delay:.12s!important}
+  .event:nth-child(4){animation-delay:.18s!important}
+  .event:nth-child(5){animation-delay:.24s!important}
+  .event:nth-child(n+6){animation-delay:.3s!important}
+  .btn,.nav button,.day-btn,.map-switch button{transition:transform .16s ease,box-shadow .16s ease,background-color .16s ease}
+  .btn:active,.nav button:active,.day-btn:active,.map-switch button:active{transform:translateY(2px) scale(.97);box-shadow:none}
+  @media(hover:hover){.btn:hover{transform:translateY(-2px);box-shadow:2px 3px 0 var(--ink)}}
+}
+@keyframes sun-breathe{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.08);opacity:.82}}
+@keyframes drink-sway{0%,70%,100%{transform:rotate(0)}78%{transform:rotate(-9deg)}88%{transform:rotate(8deg)}95%{transform:rotate(-4deg)}}
+@keyframes card-arrive{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes page-arrive{from{opacity:.65;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
